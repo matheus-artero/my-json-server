@@ -1,0 +1,14 @@
+{
+  "cloudConfig": [
+    {
+      "id": 1,
+      "name": "name test",
+      "region": "some region",
+      "access_key": "12345-4578-54878",
+      "secret_key": "12345-4578-54878",
+      "aws_service":{
+        "ec2": ["cpu_used", "mem_used", "disk_used"],
+        "s3": []
+      }
+    }]
+}
